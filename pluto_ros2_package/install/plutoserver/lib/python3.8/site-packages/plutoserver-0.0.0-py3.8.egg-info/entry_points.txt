@@ -1,0 +1,6 @@
+[console_scripts]
+keyCommand = plutoserver.key_command:main
+keyHandling = plutoserver.key_handling:main
+plutoreceivedata = plutoserver.RequestData:main
+plutoserver = plutoserver.PlutoServer:main
+

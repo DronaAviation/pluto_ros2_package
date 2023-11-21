@@ -1,0 +1,6 @@
+source;share/plutodrone/hook/pythonpath.ps1
+source;share/plutodrone/hook/pythonpath.dsv
+source;share/plutodrone/hook/pythonpath.sh
+source;share/plutodrone/hook/ament_prefix_path.ps1
+source;share/plutodrone/hook/ament_prefix_path.dsv
+source;share/plutodrone/hook/ament_prefix_path.sh

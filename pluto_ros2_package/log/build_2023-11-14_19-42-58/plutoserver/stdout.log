@@ -1,0 +1,52 @@
+running egg_info
+creating ../build/plutoserver/plutoserver.egg-info
+writing ../build/plutoserver/plutoserver.egg-info/PKG-INFO
+writing dependency_links to ../build/plutoserver/plutoserver.egg-info/dependency_links.txt
+writing entry points to ../build/plutoserver/plutoserver.egg-info/entry_points.txt
+writing requirements to ../build/plutoserver/plutoserver.egg-info/requires.txt
+writing top-level names to ../build/plutoserver/plutoserver.egg-info/top_level.txt
+writing manifest file '../build/plutoserver/plutoserver.egg-info/SOURCES.txt'
+reading manifest file '../build/plutoserver/plutoserver.egg-info/SOURCES.txt'
+writing manifest file '../build/plutoserver/plutoserver.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build
+creating /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build/lib
+creating /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build/lib/plutoserver
+copying plutoserver/RequestData.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build/lib/plutoserver
+copying plutoserver/PlutoServer.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build/lib/plutoserver
+copying plutoserver/key_handling.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build/lib/plutoserver
+copying plutoserver/key_command.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build/lib/plutoserver
+copying plutoserver/__init__.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build/lib/plutoserver
+copying plutoserver/readInput.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build/lib/plutoserver
+running install
+running install_lib
+creating /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/python3.8/site-packages/plutoserver
+copying /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build/lib/plutoserver/RequestData.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/python3.8/site-packages/plutoserver
+copying /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build/lib/plutoserver/PlutoServer.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/python3.8/site-packages/plutoserver
+copying /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build/lib/plutoserver/key_handling.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/python3.8/site-packages/plutoserver
+copying /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build/lib/plutoserver/key_command.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/python3.8/site-packages/plutoserver
+copying /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build/lib/plutoserver/__init__.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/python3.8/site-packages/plutoserver
+copying /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build/lib/plutoserver/readInput.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/python3.8/site-packages/plutoserver
+byte-compiling /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/python3.8/site-packages/plutoserver/RequestData.py to RequestData.cpython-38.pyc
+byte-compiling /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/python3.8/site-packages/plutoserver/PlutoServer.py to PlutoServer.cpython-38.pyc
+byte-compiling /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/python3.8/site-packages/plutoserver/key_handling.py to key_handling.cpython-38.pyc
+byte-compiling /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/python3.8/site-packages/plutoserver/key_command.py to key_command.cpython-38.pyc
+byte-compiling /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/python3.8/site-packages/plutoserver/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/python3.8/site-packages/plutoserver/readInput.py to readInput.cpython-38.pyc
+running install_data
+creating /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/share/ament_index
+creating /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/share/ament_index/resource_index
+creating /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/share/ament_index/resource_index/packages
+copying resource/plutoserver -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/share/ament_index/resource_index/packages
+copying package.xml -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/share/plutoserver
+creating /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/share/plutoserver/launch
+copying launch/drone_comb.launch.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/share/plutoserver/launch
+running install_egg_info
+Copying ../build/plutoserver/plutoserver.egg-info to /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/python3.8/site-packages/plutoserver-0.0.0-py3.8.egg-info
+running install_scripts
+Installing keyCommand script to /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/plutoserver
+Installing keyHandling script to /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/plutoserver
+Installing plutoreceivedata script to /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/plutoserver
+Installing plutoserver script to /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/plutoserver
+writing list of installed files to '/home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/install.log'

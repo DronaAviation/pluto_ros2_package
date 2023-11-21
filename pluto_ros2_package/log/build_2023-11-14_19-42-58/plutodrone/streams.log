@@ -1,0 +1,46 @@
+[1.702s] Invoking command in '/home/malay/pluto_ros2/src/pluto-ros2-package/plutodrone': PYTHONPATH=/home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/prefix_override:/home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/plutodrone build --build-base /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/build install --record /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/install.log --single-version-externally-managed
+[1.990s] running egg_info
+[1.991s] creating ../build/plutodrone/plutodrone.egg-info
+[1.991s] writing ../build/plutodrone/plutodrone.egg-info/PKG-INFO
+[1.991s] writing dependency_links to ../build/plutodrone/plutodrone.egg-info/dependency_links.txt
+[1.991s] writing entry points to ../build/plutodrone/plutodrone.egg-info/entry_points.txt
+[1.991s] writing requirements to ../build/plutodrone/plutodrone.egg-info/requires.txt
+[1.992s] writing top-level names to ../build/plutodrone/plutodrone.egg-info/top_level.txt
+[2.044s] writing manifest file '../build/plutodrone/plutodrone.egg-info/SOURCES.txt'
+[2.051s] reading manifest file '../build/plutodrone/plutodrone.egg-info/SOURCES.txt'
+[2.054s] writing manifest file '../build/plutodrone/plutodrone.egg-info/SOURCES.txt'
+[2.054s] running build
+[2.054s] running build_py
+[2.055s] creating /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/build
+[2.055s] creating /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/build/lib
+[2.055s] creating /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/build/lib/plutodrone
+[2.056s] copying plutodrone/Common.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/build/lib/plutodrone
+[2.056s] copying plutodrone/Communication.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/build/lib/plutodrone
+[2.056s] copying plutodrone/__init__.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/build/lib/plutodrone
+[2.057s] copying plutodrone/PlutoNode.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/build/lib/plutodrone
+[2.057s] copying plutodrone/Protocol.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/build/lib/plutodrone
+[2.057s] running install
+[2.058s] running install_lib
+[2.059s] creating /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/lib/python3.8/site-packages/plutodrone
+[2.059s] copying /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/build/lib/plutodrone/Common.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/lib/python3.8/site-packages/plutodrone
+[2.059s] copying /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/build/lib/plutodrone/Communication.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/lib/python3.8/site-packages/plutodrone
+[2.144s] copying /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/build/lib/plutodrone/__init__.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/lib/python3.8/site-packages/plutodrone
+[2.145s] copying /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/build/lib/plutodrone/PlutoNode.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/lib/python3.8/site-packages/plutodrone
+[2.145s] copying /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/build/lib/plutodrone/Protocol.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/lib/python3.8/site-packages/plutodrone
+[2.146s] byte-compiling /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/lib/python3.8/site-packages/plutodrone/Common.py to Common.cpython-38.pyc
+[2.147s] byte-compiling /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/lib/python3.8/site-packages/plutodrone/Communication.py to Communication.cpython-38.pyc
+[2.148s] byte-compiling /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/lib/python3.8/site-packages/plutodrone/__init__.py to __init__.cpython-38.pyc
+[2.148s] byte-compiling /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/lib/python3.8/site-packages/plutodrone/PlutoNode.py to PlutoNode.cpython-38.pyc
+[2.151s] byte-compiling /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/lib/python3.8/site-packages/plutodrone/Protocol.py to Protocol.cpython-38.pyc
+[2.153s] running install_data
+[2.154s] creating /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/share/ament_index
+[2.154s] creating /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/share/ament_index/resource_index
+[2.154s] creating /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/share/ament_index/resource_index/packages
+[2.154s] copying resource/plutodrone -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/share/ament_index/resource_index/packages
+[2.154s] copying package.xml -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/share/plutodrone
+[2.154s] running install_egg_info
+[2.157s] Copying ../build/plutodrone/plutodrone.egg-info to /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/lib/python3.8/site-packages/plutodrone-0.0.0-py3.8.egg-info
+[2.158s] running install_scripts
+[2.185s] Installing plutonode script to /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/lib/plutodrone
+[2.185s] writing list of installed files to '/home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/install.log'
+[2.349s] Invoked command in '/home/malay/pluto_ros2/src/pluto-ros2-package/plutodrone' returned '0': PYTHONPATH=/home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/prefix_override:/home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/plutodrone build --build-base /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/build install --record /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/install.log --single-version-externally-managed

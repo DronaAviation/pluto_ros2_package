@@ -1,0 +1,54 @@
+[1.533s] Invoking command in '/home/malay/pluto_ros2/src/pluto-ros2-package/plutoserver': PYTHONPATH=/home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/prefix_override:/home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/plutoserver build --build-base /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build install --record /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/install.log --single-version-externally-managed
+[1.811s] running egg_info
+[1.811s] creating ../build/plutoserver/plutoserver.egg-info
+[1.811s] writing ../build/plutoserver/plutoserver.egg-info/PKG-INFO
+[1.812s] writing dependency_links to ../build/plutoserver/plutoserver.egg-info/dependency_links.txt
+[1.812s] writing entry points to ../build/plutoserver/plutoserver.egg-info/entry_points.txt
+[1.812s] writing requirements to ../build/plutoserver/plutoserver.egg-info/requires.txt
+[1.812s] writing top-level names to ../build/plutoserver/plutoserver.egg-info/top_level.txt
+[1.869s] writing manifest file '../build/plutoserver/plutoserver.egg-info/SOURCES.txt'
+[1.875s] reading manifest file '../build/plutoserver/plutoserver.egg-info/SOURCES.txt'
+[1.878s] writing manifest file '../build/plutoserver/plutoserver.egg-info/SOURCES.txt'
+[1.879s] running build
+[1.879s] running build_py
+[1.879s] creating /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build
+[1.880s] creating /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build/lib
+[1.880s] creating /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build/lib/plutoserver
+[1.880s] copying plutoserver/RequestData.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build/lib/plutoserver
+[1.880s] copying plutoserver/PlutoServer.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build/lib/plutoserver
+[1.881s] copying plutoserver/key_handling.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build/lib/plutoserver
+[1.881s] copying plutoserver/key_command.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build/lib/plutoserver
+[1.882s] copying plutoserver/__init__.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build/lib/plutoserver
+[1.882s] copying plutoserver/readInput.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build/lib/plutoserver
+[1.882s] running install
+[1.882s] running install_lib
+[1.883s] creating /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/python3.8/site-packages/plutoserver
+[1.884s] copying /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build/lib/plutoserver/RequestData.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/python3.8/site-packages/plutoserver
+[1.884s] copying /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build/lib/plutoserver/PlutoServer.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/python3.8/site-packages/plutoserver
+[1.969s] copying /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build/lib/plutoserver/key_handling.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/python3.8/site-packages/plutoserver
+[1.969s] copying /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build/lib/plutoserver/key_command.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/python3.8/site-packages/plutoserver
+[1.970s] copying /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build/lib/plutoserver/__init__.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/python3.8/site-packages/plutoserver
+[1.970s] copying /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build/lib/plutoserver/readInput.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/python3.8/site-packages/plutoserver
+[1.971s] byte-compiling /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/python3.8/site-packages/plutoserver/RequestData.py to RequestData.cpython-38.pyc
+[1.972s] byte-compiling /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/python3.8/site-packages/plutoserver/PlutoServer.py to PlutoServer.cpython-38.pyc
+[1.972s] byte-compiling /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/python3.8/site-packages/plutoserver/key_handling.py to key_handling.cpython-38.pyc
+[1.974s] byte-compiling /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/python3.8/site-packages/plutoserver/key_command.py to key_command.cpython-38.pyc
+[1.975s] byte-compiling /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/python3.8/site-packages/plutoserver/__init__.py to __init__.cpython-38.pyc
+[1.976s] byte-compiling /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/python3.8/site-packages/plutoserver/readInput.py to readInput.cpython-38.pyc
+[1.976s] running install_data
+[1.977s] creating /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/share/ament_index
+[1.977s] creating /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/share/ament_index/resource_index
+[1.977s] creating /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/share/ament_index/resource_index/packages
+[1.977s] copying resource/plutoserver -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/share/ament_index/resource_index/packages
+[1.977s] copying package.xml -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/share/plutoserver
+[1.977s] creating /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/share/plutoserver/launch
+[1.977s] copying launch/drone_comb.launch.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/share/plutoserver/launch
+[1.978s] running install_egg_info
+[1.980s] Copying ../build/plutoserver/plutoserver.egg-info to /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/python3.8/site-packages/plutoserver-0.0.0-py3.8.egg-info
+[1.981s] running install_scripts
+[2.009s] Installing keyCommand script to /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/plutoserver
+[2.009s] Installing keyHandling script to /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/plutoserver
+[2.009s] Installing plutoreceivedata script to /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/plutoserver
+[2.009s] Installing plutoserver script to /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/plutoserver
+[2.010s] writing list of installed files to '/home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/install.log'
+[2.041s] Invoked command in '/home/malay/pluto_ros2/src/pluto-ros2-package/plutoserver' returned '0': PYTHONPATH=/home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/prefix_override:/home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/plutoserver build --build-base /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build install --record /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/install.log --single-version-externally-managed

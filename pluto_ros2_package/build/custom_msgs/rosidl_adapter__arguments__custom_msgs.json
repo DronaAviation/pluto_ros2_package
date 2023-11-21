@@ -1,0 +1,8 @@
+{
+  "package_name": "custom_msgs",
+  "non_idl_tuples": [
+    "/home/malay/pluto_ros2/src/pluto-ros2-package/custom_msgs:msg/PlutoMsg.msg",
+    "/home/malay/pluto_ros2/src/pluto-ros2-package/custom_msgs:msg/PlutoMsgAP.msg",
+    "/home/malay/pluto_ros2/src/pluto-ros2-package/custom_msgs:srv/PlutoPilot.srv"
+  ]
+}

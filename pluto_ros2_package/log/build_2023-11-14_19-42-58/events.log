@@ -1,0 +1,560 @@
+[0.000000] (-) TimerEvent: {}
+[0.000181] (custom_msgs) JobQueued: {'identifier': 'custom_msgs', 'dependencies': OrderedDict()}
+[0.001313] (plutodrone) JobQueued: {'identifier': 'plutodrone', 'dependencies': OrderedDict()}
+[0.001392] (plutoserver) JobQueued: {'identifier': 'plutoserver', 'dependencies': OrderedDict()}
+[0.001410] (custom_msgs) JobStarted: {'identifier': 'custom_msgs'}
+[0.099873] (-) TimerEvent: {}
+[0.143896] (plutodrone) JobStarted: {'identifier': 'plutodrone'}
+[0.200120] (-) TimerEvent: {}
+[0.301680] (-) TimerEvent: {}
+[0.319451] (plutoserver) JobStarted: {'identifier': 'plutoserver'}
+[0.402675] (-) TimerEvent: {}
+[0.503741] (-) TimerEvent: {}
+[0.514343] (custom_msgs) JobProgress: {'identifier': 'custom_msgs', 'progress': 'cmake'}
+[0.514791] (custom_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/malay/pluto_ros2/src/pluto-ros2-package/custom_msgs', '-DCMAKE_INSTALL_PREFIX=/home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs'], 'cwd': '/home/malay/pluto_ros2/src/pluto-ros2-package/build/custom_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'malay'), ('SSH_AGENT_PID', '2102'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('VREP_ROOT', '/malay/Downloads/VREP'), ('HOME', '/home/malay'), ('OLDPWD', '/home/malay/pluto_ros2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1910'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'malay'), ('JOURNAL_STREAM', '8:55371'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'malay'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/malay/gazebo_ws/gazebo_models:/home/malay/ardupilot_gazebo/models:/home/malay/catkin_ws/src/iq_sim/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/foxy/bin:/usr/lib/ccache:/home/malay/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/malay/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/malay-IdeaPad-3-15IIL05:@/tmp/.ICE-unix/2139,unix/malay-IdeaPad-3-15IIL05:/tmp/.ICE-unix/2139'), ('INVOCATION_ID', 'd6c027e860cd43e9a194f324b330e497'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0fd5d6b4_3c63_4eb1_9622_1b06a7f6f3c0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.210'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/malay/pluto_ros2/src/pluto-ros2-package/build/custom_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.603916] (-) TimerEvent: {}
+[0.704364] (-) TimerEvent: {}
+[0.804713] (-) TimerEvent: {}
+[0.905155] (-) TimerEvent: {}
+[1.006052] (-) TimerEvent: {}
+[1.106503] (-) TimerEvent: {}
+[1.206883] (-) TimerEvent: {}
+[1.307654] (-) TimerEvent: {}
+[1.408121] (-) TimerEvent: {}
+[1.508462] (-) TimerEvent: {}
+[1.608745] (-) TimerEvent: {}
+[1.708993] (-) TimerEvent: {}
+[1.809363] (-) TimerEvent: {}
+[1.843480] (plutodrone) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/plutodrone', 'build', '--build-base', '/home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/build', 'install', '--record', '/home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/install.log', '--single-version-externally-managed'], 'cwd': '/home/malay/pluto_ros2/src/pluto-ros2-package/plutodrone', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'malay', 'SSH_AGENT_PID': '2102', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'VREP_ROOT': '/malay/Downloads/VREP', 'HOME': '/home/malay', 'OLDPWD': '/home/malay/pluto_ros2/src', 'DESKTOP_SESSION': 'ubuntu', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1910', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'malay', 'JOURNAL_STREAM': '8:55371', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'malay', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/malay/gazebo_ws/gazebo_models:/home/malay/ardupilot_gazebo/models:/home/malay/catkin_ws/src/iq_sim/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/foxy/bin:/usr/lib/ccache:/home/malay/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/malay/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/malay-IdeaPad-3-15IIL05:@/tmp/.ICE-unix/2139,unix/malay-IdeaPad-3-15IIL05:/tmp/.ICE-unix/2139', 'INVOCATION_ID': 'd6c027e860cd43e9a194f324b330e497', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0fd5d6b4_3c63_4eb1_9622_1b06a7f6f3c0', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_IN', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.210', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/prefix_override:/home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[1.850285] (plutoserver) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/plutoserver', 'build', '--build-base', '/home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build', 'install', '--record', '/home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/install.log', '--single-version-externally-managed'], 'cwd': '/home/malay/pluto_ros2/src/pluto-ros2-package/plutoserver', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'malay', 'SSH_AGENT_PID': '2102', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'VREP_ROOT': '/malay/Downloads/VREP', 'HOME': '/home/malay', 'OLDPWD': '/home/malay/pluto_ros2/src', 'DESKTOP_SESSION': 'ubuntu', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1910', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'malay', 'JOURNAL_STREAM': '8:55371', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'malay', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/malay/gazebo_ws/gazebo_models:/home/malay/ardupilot_gazebo/models:/home/malay/catkin_ws/src/iq_sim/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/foxy/bin:/usr/lib/ccache:/home/malay/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/malay/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/malay-IdeaPad-3-15IIL05:@/tmp/.ICE-unix/2139,unix/malay-IdeaPad-3-15IIL05:/tmp/.ICE-unix/2139', 'INVOCATION_ID': 'd6c027e860cd43e9a194f324b330e497', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0fd5d6b4_3c63_4eb1_9622_1b06a7f6f3c0', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_IN', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.210', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/prefix_override:/home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[1.909513] (-) TimerEvent: {}
+[2.009847] (-) TimerEvent: {}
+[2.110258] (-) TimerEvent: {}
+[2.130474] (plutoserver) StdoutLine: {'line': b'running egg_info\n'}
+[2.130880] (plutoserver) StdoutLine: {'line': b'creating ../build/plutoserver/plutoserver.egg-info\n'}
+[2.131038] (plutoserver) StdoutLine: {'line': b'writing ../build/plutoserver/plutoserver.egg-info/PKG-INFO\n'}
+[2.131211] (plutoserver) StdoutLine: {'line': b'writing dependency_links to ../build/plutoserver/plutoserver.egg-info/dependency_links.txt\n'}
+[2.131345] (plutoserver) StdoutLine: {'line': b'writing entry points to ../build/plutoserver/plutoserver.egg-info/entry_points.txt\n'}
+[2.131481] (plutoserver) StdoutLine: {'line': b'writing requirements to ../build/plutoserver/plutoserver.egg-info/requires.txt\n'}
+[2.131576] (plutoserver) StdoutLine: {'line': b'writing top-level names to ../build/plutoserver/plutoserver.egg-info/top_level.txt\n'}
+[2.134508] (plutodrone) StdoutLine: {'line': b'running egg_info\n'}
+[2.134976] (plutodrone) StdoutLine: {'line': b'creating ../build/plutodrone/plutodrone.egg-info\n'}
+[2.135119] (plutodrone) StdoutLine: {'line': b'writing ../build/plutodrone/plutodrone.egg-info/PKG-INFO\n'}
+[2.135315] (plutodrone) StdoutLine: {'line': b'writing dependency_links to ../build/plutodrone/plutodrone.egg-info/dependency_links.txt\n'}
+[2.135454] (plutodrone) StdoutLine: {'line': b'writing entry points to ../build/plutodrone/plutodrone.egg-info/entry_points.txt\n'}
+[2.135575] (plutodrone) StdoutLine: {'line': b'writing requirements to ../build/plutodrone/plutodrone.egg-info/requires.txt\n'}
+[2.135693] (plutodrone) StdoutLine: {'line': b'writing top-level names to ../build/plutodrone/plutodrone.egg-info/top_level.txt\n'}
+[2.188009] (plutodrone) StdoutLine: {'line': b"writing manifest file '../build/plutodrone/plutodrone.egg-info/SOURCES.txt'\n"}
+[2.188544] (plutoserver) StdoutLine: {'line': b"writing manifest file '../build/plutoserver/plutoserver.egg-info/SOURCES.txt'\n"}
+[2.194698] (plutodrone) StdoutLine: {'line': b"reading manifest file '../build/plutodrone/plutodrone.egg-info/SOURCES.txt'\n"}
+[2.195081] (plutoserver) StdoutLine: {'line': b"reading manifest file '../build/plutoserver/plutoserver.egg-info/SOURCES.txt'\n"}
+[2.197210] (plutoserver) StdoutLine: {'line': b"writing manifest file '../build/plutoserver/plutoserver.egg-info/SOURCES.txt'\n"}
+[2.197677] (plutodrone) StdoutLine: {'line': b"writing manifest file '../build/plutodrone/plutodrone.egg-info/SOURCES.txt'\n"}
+[2.198016] (plutodrone) StdoutLine: {'line': b'running build\n'}
+[2.198363] (plutodrone) StdoutLine: {'line': b'running build_py\n'}
+[2.198525] (plutoserver) StdoutLine: {'line': b'running build\n'}
+[2.198719] (plutoserver) StdoutLine: {'line': b'running build_py\n'}
+[2.198919] (plutoserver) StdoutLine: {'line': b'creating /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build\n'}
+[2.199041] (plutodrone) StdoutLine: {'line': b'creating /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/build\n'}
+[2.199157] (plutodrone) StdoutLine: {'line': b'creating /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/build/lib\n'}
+[2.199272] (plutoserver) StdoutLine: {'line': b'creating /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build/lib\n'}
+[2.199385] (plutoserver) StdoutLine: {'line': b'creating /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build/lib/plutoserver\n'}
+[2.199499] (plutodrone) StdoutLine: {'line': b'creating /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/build/lib/plutodrone\n'}
+[2.199615] (plutoserver) StdoutLine: {'line': b'copying plutoserver/RequestData.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build/lib/plutoserver\n'}
+[2.199734] (plutodrone) StdoutLine: {'line': b'copying plutodrone/Common.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/build/lib/plutodrone\n'}
+[2.199850] (plutoserver) StdoutLine: {'line': b'copying plutoserver/PlutoServer.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build/lib/plutoserver\n'}
+[2.199967] (plutodrone) StdoutLine: {'line': b'copying plutodrone/Communication.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/build/lib/plutodrone\n'}
+[2.200082] (plutodrone) StdoutLine: {'line': b'copying plutodrone/__init__.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/build/lib/plutodrone\n'}
+[2.200198] (plutoserver) StdoutLine: {'line': b'copying plutoserver/key_handling.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build/lib/plutoserver\n'}
+[2.200526] (plutodrone) StdoutLine: {'line': b'copying plutodrone/PlutoNode.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/build/lib/plutodrone\n'}
+[2.200769] (plutodrone) StdoutLine: {'line': b'copying plutodrone/Protocol.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/build/lib/plutodrone\n'}
+[2.200885] (plutodrone) StdoutLine: {'line': b'running install\n'}
+[2.200996] (plutoserver) StdoutLine: {'line': b'copying plutoserver/key_command.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build/lib/plutoserver\n'}
+[2.201108] (plutoserver) StdoutLine: {'line': b'copying plutoserver/__init__.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build/lib/plutoserver\n'}
+[2.201211] (plutoserver) StdoutLine: {'line': b'copying plutoserver/readInput.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build/lib/plutoserver\n'}
+[2.201268] (plutoserver) StdoutLine: {'line': b'running install\n'}
+[2.201665] (plutoserver) StdoutLine: {'line': b'running install_lib\n'}
+[2.201773] (plutodrone) StdoutLine: {'line': b'running install_lib\n'}
+[2.202859] (plutoserver) StdoutLine: {'line': b'creating /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/python3.8/site-packages/plutoserver\n'}
+[2.203105] (plutodrone) StdoutLine: {'line': b'creating /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/lib/python3.8/site-packages/plutodrone\n'}
+[2.203219] (plutoserver) StdoutLine: {'line': b'copying /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build/lib/plutoserver/RequestData.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/python3.8/site-packages/plutoserver\n'}
+[2.203361] (plutodrone) StdoutLine: {'line': b'copying /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/build/lib/plutodrone/Common.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/lib/python3.8/site-packages/plutodrone\n'}
+[2.203455] (plutodrone) StdoutLine: {'line': b'copying /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/build/lib/plutodrone/Communication.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/lib/python3.8/site-packages/plutodrone\n'}
+[2.203540] (plutoserver) StdoutLine: {'line': b'copying /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build/lib/plutoserver/PlutoServer.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/python3.8/site-packages/plutoserver\n'}
+[2.210387] (-) TimerEvent: {}
+[2.287910] (plutoserver) StdoutLine: {'line': b'copying /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build/lib/plutoserver/key_handling.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/python3.8/site-packages/plutoserver\n'}
+[2.288328] (plutodrone) StdoutLine: {'line': b'copying /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/build/lib/plutodrone/__init__.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/lib/python3.8/site-packages/plutodrone\n'}
+[2.288544] (plutodrone) StdoutLine: {'line': b'copying /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/build/lib/plutodrone/PlutoNode.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/lib/python3.8/site-packages/plutodrone\n'}
+[2.288721] (plutoserver) StdoutLine: {'line': b'copying /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build/lib/plutoserver/key_command.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/python3.8/site-packages/plutoserver\n'}
+[2.289044] (plutodrone) StdoutLine: {'line': b'copying /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/build/lib/plutodrone/Protocol.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/lib/python3.8/site-packages/plutodrone\n'}
+[2.289304] (plutoserver) StdoutLine: {'line': b'copying /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build/lib/plutoserver/__init__.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/python3.8/site-packages/plutoserver\n'}
+[2.289492] (plutoserver) StdoutLine: {'line': b'copying /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/build/lib/plutoserver/readInput.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/python3.8/site-packages/plutoserver\n'}
+[2.289927] (plutodrone) StdoutLine: {'line': b'byte-compiling /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/lib/python3.8/site-packages/plutodrone/Common.py to Common.cpython-38.pyc\n'}
+[2.290146] (plutoserver) StdoutLine: {'line': b'byte-compiling /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/python3.8/site-packages/plutoserver/RequestData.py to RequestData.cpython-38.pyc\n'}
+[2.291136] (plutoserver) StdoutLine: {'line': b'byte-compiling /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/python3.8/site-packages/plutoserver/PlutoServer.py to PlutoServer.cpython-38.pyc\n'}
+[2.291281] (plutodrone) StdoutLine: {'line': b'byte-compiling /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/lib/python3.8/site-packages/plutodrone/Communication.py to Communication.cpython-38.pyc\n'}
+[2.291972] (plutoserver) StdoutLine: {'line': b'byte-compiling /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/python3.8/site-packages/plutoserver/key_handling.py to key_handling.cpython-38.pyc\n'}
+[2.292179] (plutodrone) StdoutLine: {'line': b'byte-compiling /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/lib/python3.8/site-packages/plutodrone/__init__.py to __init__.cpython-38.pyc\n'}
+[2.292522] (plutodrone) StdoutLine: {'line': b'byte-compiling /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/lib/python3.8/site-packages/plutodrone/PlutoNode.py to PlutoNode.cpython-38.pyc\n'}
+[2.293953] (plutoserver) StdoutLine: {'line': b'byte-compiling /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/python3.8/site-packages/plutoserver/key_command.py to key_command.cpython-38.pyc\n'}
+[2.294955] (plutoserver) StdoutLine: {'line': b'byte-compiling /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/python3.8/site-packages/plutoserver/__init__.py to __init__.cpython-38.pyc\n'}
+[2.295122] (plutodrone) StdoutLine: {'line': b'byte-compiling /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/lib/python3.8/site-packages/plutodrone/Protocol.py to Protocol.cpython-38.pyc\n'}
+[2.295220] (plutoserver) StdoutLine: {'line': b'byte-compiling /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/python3.8/site-packages/plutoserver/readInput.py to readInput.cpython-38.pyc\n'}
+[2.295531] (plutoserver) StdoutLine: {'line': b'running install_data\n'}
+[2.296519] (plutoserver) StdoutLine: {'line': b'creating /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/share/ament_index\n'}
+[2.296659] (plutoserver) StdoutLine: {'line': b'creating /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/share/ament_index/resource_index\n'}
+[2.296760] (plutoserver) StdoutLine: {'line': b'creating /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/share/ament_index/resource_index/packages\n'}
+[2.296827] (plutoserver) StdoutLine: {'line': b'copying resource/plutoserver -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/share/ament_index/resource_index/packages\n'}
+[2.296911] (plutoserver) StdoutLine: {'line': b'copying package.xml -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/share/plutoserver\n'}
+[2.297023] (plutoserver) StdoutLine: {'line': b'creating /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/share/plutoserver/launch\n'}
+[2.297112] (plutoserver) StdoutLine: {'line': b'copying launch/drone_comb.launch.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/share/plutoserver/launch\n'}
+[2.297222] (plutoserver) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.297333] (plutodrone) StdoutLine: {'line': b'running install_data\n'}
+[2.297999] (plutodrone) StdoutLine: {'line': b'creating /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/share/ament_index\n'}
+[2.298146] (plutodrone) StdoutLine: {'line': b'creating /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/share/ament_index/resource_index\n'}
+[2.298224] (plutodrone) StdoutLine: {'line': b'creating /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/share/ament_index/resource_index/packages\n'}
+[2.298295] (plutodrone) StdoutLine: {'line': b'copying resource/plutodrone -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/share/ament_index/resource_index/packages\n'}
+[2.298406] (plutodrone) StdoutLine: {'line': b'copying package.xml -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/share/plutodrone\n'}
+[2.298513] (plutodrone) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.299710] (plutoserver) StdoutLine: {'line': b'Copying ../build/plutoserver/plutoserver.egg-info to /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/python3.8/site-packages/plutoserver-0.0.0-py3.8.egg-info\n'}
+[2.301009] (plutoserver) StdoutLine: {'line': b'running install_scripts\n'}
+[2.301118] (plutodrone) StdoutLine: {'line': b'Copying ../build/plutodrone/plutodrone.egg-info to /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/lib/python3.8/site-packages/plutodrone-0.0.0-py3.8.egg-info\n'}
+[2.301912] (plutodrone) StdoutLine: {'line': b'running install_scripts\n'}
+[2.310478] (-) TimerEvent: {}
+[2.328525] (plutoserver) StdoutLine: {'line': b'Installing keyCommand script to /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/plutoserver\n'}
+[2.328792] (plutodrone) StdoutLine: {'line': b'Installing plutonode script to /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/lib/plutodrone\n'}
+[2.328897] (plutoserver) StdoutLine: {'line': b'Installing keyHandling script to /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/plutoserver\n'}
+[2.328958] (plutoserver) StdoutLine: {'line': b'Installing plutoreceivedata script to /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/plutoserver\n'}
+[2.329035] (plutoserver) StdoutLine: {'line': b'Installing plutoserver script to /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutoserver/lib/plutoserver\n'}
+[2.329192] (plutodrone) StdoutLine: {'line': b"writing list of installed files to '/home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/install.log'\n"}
+[2.329398] (plutoserver) StdoutLine: {'line': b"writing list of installed files to '/home/malay/pluto_ros2/src/pluto-ros2-package/build/plutoserver/install.log'\n"}
+[2.360328] (plutoserver) CommandEnded: {'returncode': 0}
+[2.410670] (-) TimerEvent: {}
+[2.492858] (plutoserver) JobEnded: {'identifier': 'plutoserver', 'rc': 0}
+[2.493261] (plutodrone) CommandEnded: {'returncode': 0}
+[2.495514] (custom_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[2.510808] (-) TimerEvent: {}
+[2.611217] (-) TimerEvent: {}
+[2.626483] (plutodrone) JobEnded: {'identifier': 'plutodrone', 'rc': 0}
+[2.711388] (-) TimerEvent: {}
+[2.811829] (-) TimerEvent: {}
+[2.912402] (-) TimerEvent: {}
+[3.012853] (-) TimerEvent: {}
+[3.113366] (-) TimerEvent: {}
+[3.213636] (-) TimerEvent: {}
+[3.313933] (-) TimerEvent: {}
+[3.414308] (-) TimerEvent: {}
+[3.514807] (-) TimerEvent: {}
+[3.615255] (-) TimerEvent: {}
+[3.715809] (-) TimerEvent: {}
+[3.816175] (-) TimerEvent: {}
+[3.916727] (-) TimerEvent: {}
+[4.017227] (-) TimerEvent: {}
+[4.117629] (-) TimerEvent: {}
+[4.212293] (custom_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[4.217778] (-) TimerEvent: {}
+[4.318141] (-) TimerEvent: {}
+[4.418573] (-) TimerEvent: {}
+[4.436907] (custom_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/lib/ccache/cc\n'}
+[4.518715] (-) TimerEvent: {}
+[4.619193] (-) TimerEvent: {}
+[4.719662] (-) TimerEvent: {}
+[4.820131] (-) TimerEvent: {}
+[4.834061] (custom_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/lib/ccache/cc -- works\n'}
+[4.835207] (custom_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.920398] (-) TimerEvent: {}
+[5.020865] (-) TimerEvent: {}
+[5.027846] (custom_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.039879] (custom_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.040545] (custom_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.043701] (custom_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/lib/ccache/c++\n'}
+[5.121012] (-) TimerEvent: {}
+[5.147838] (custom_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/lib/ccache/c++ -- works\n'}
+[5.148997] (custom_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.221240] (-) TimerEvent: {}
+[5.245421] (custom_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.254991] (custom_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.255324] (custom_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.321405] (-) TimerEvent: {}
+[5.421827] (-) TimerEvent: {}
+[5.481935] (custom_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[5.522082] (-) TimerEvent: {}
+[5.589235] (custom_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[5.589552] (custom_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.622172] (-) TimerEvent: {}
+[5.722434] (-) TimerEvent: {}
+[5.822913] (-) TimerEvent: {}
+[5.923245] (-) TimerEvent: {}
+[6.023628] (-) TimerEvent: {}
+[6.124026] (-) TimerEvent: {}
+[6.145877] (custom_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[6.224145] (-) TimerEvent: {}
+[6.324545] (-) TimerEvent: {}
+[6.424987] (-) TimerEvent: {}
+[6.525495] (-) TimerEvent: {}
+[6.620087] (custom_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.625625] (-) TimerEvent: {}
+[6.726116] (-) TimerEvent: {}
+[6.826548] (-) TimerEvent: {}
+[6.831993] (custom_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[6.926767] (-) TimerEvent: {}
+[7.027191] (-) TimerEvent: {}
+[7.127592] (-) TimerEvent: {}
+[7.227911] (-) TimerEvent: {}
+[7.328415] (-) TimerEvent: {}
+[7.428878] (-) TimerEvent: {}
+[7.529324] (-) TimerEvent: {}
+[7.629779] (-) TimerEvent: {}
+[7.730224] (-) TimerEvent: {}
+[7.784733] (custom_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[7.830405] (-) TimerEvent: {}
+[7.837871] (custom_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[7.930507] (-) TimerEvent: {}
+[8.001994] (custom_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.030648] (-) TimerEvent: {}
+[8.130996] (-) TimerEvent: {}
+[8.139433] (custom_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[8.221899] (custom_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[8.231127] (-) TimerEvent: {}
+[8.331409] (-) TimerEvent: {}
+[8.431771] (-) TimerEvent: {}
+[8.488863] (custom_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[8.531898] (-) TimerEvent: {}
+[8.632249] (-) TimerEvent: {}
+[8.732603] (-) TimerEvent: {}
+[8.760764] (custom_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.769004] (custom_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.791998] (custom_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[8.805707] (custom_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[8.832695] (-) TimerEvent: {}
+[8.872710] (custom_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[8.873014] (custom_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[8.873157] (custom_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[8.873268] (custom_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[8.893677] (custom_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[8.932855] (-) TimerEvent: {}
+[9.033199] (-) TimerEvent: {}
+[9.067314] (custom_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[9.133336] (-) TimerEvent: {}
+[9.219557] (custom_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[9.222628] (custom_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.224135] (custom_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.228923] (custom_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.233454] (-) TimerEvent: {}
+[9.302986] (custom_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[9.305127] (custom_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/malay/pluto_ros2/src/pluto-ros2-package/build/custom_msgs\n'}
+[9.311603] (custom_msgs) CommandEnded: {'returncode': 0}
+[9.312271] (custom_msgs) JobProgress: {'identifier': 'custom_msgs', 'progress': 'build'}
+[9.314203] (custom_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/malay/pluto_ros2/src/pluto-ros2-package/build/custom_msgs', '--', '-j8', '-l8'], 'cwd': '/home/malay/pluto_ros2/src/pluto-ros2-package/build/custom_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'malay'), ('SSH_AGENT_PID', '2102'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('VREP_ROOT', '/malay/Downloads/VREP'), ('HOME', '/home/malay'), ('OLDPWD', '/home/malay/pluto_ros2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1910'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'malay'), ('JOURNAL_STREAM', '8:55371'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'malay'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/malay/gazebo_ws/gazebo_models:/home/malay/ardupilot_gazebo/models:/home/malay/catkin_ws/src/iq_sim/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/foxy/bin:/usr/lib/ccache:/home/malay/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/malay/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/malay-IdeaPad-3-15IIL05:@/tmp/.ICE-unix/2139,unix/malay-IdeaPad-3-15IIL05:/tmp/.ICE-unix/2139'), ('INVOCATION_ID', 'd6c027e860cd43e9a194f324b330e497'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0fd5d6b4_3c63_4eb1_9622_1b06a7f6f3c0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.210'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/malay/pluto_ros2/src/pluto-ros2-package/build/custom_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[9.333638] (-) TimerEvent: {}
+[9.350707] (custom_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[9.350907] (custom_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msgs__cpp\x1b[0m\n'}
+[9.360842] (custom_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[9.433781] (-) TimerEvent: {}
+[9.534085] (-) TimerEvent: {}
+[9.634358] (-) TimerEvent: {}
+[9.734641] (-) TimerEvent: {}
+[9.795115] (custom_msgs) StdoutLine: {'line': b'[  4%] Built target custom_msgs__cpp\n'}
+[9.807281] (custom_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[9.808481] (custom_msgs) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[9.810916] (custom_msgs) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[9.814821] (custom_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msgs__rosidl_generator_c\x1b[0m\n'}
+[9.834761] (-) TimerEvent: {}
+[9.862411] (custom_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/srv/detail/pluto_pilot__functions.c.o\x1b[0m\n'}
+[9.863027] (custom_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/msg/detail/pluto_msg__functions.c.o\x1b[0m\n'}
+[9.863200] (custom_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/msg/detail/pluto_msg_ap__functions.c.o\x1b[0m\n'}
+[9.934869] (-) TimerEvent: {}
+[10.035218] (-) TimerEvent: {}
+[10.110033] (custom_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libcustom_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[10.135327] (-) TimerEvent: {}
+[10.182584] (custom_msgs) StdoutLine: {'line': b'[ 19%] Built target custom_msgs__rosidl_generator_c\n'}
+[10.197201] (custom_msgs) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[10.207848] (custom_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[10.211619] (custom_msgs) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[10.218039] (custom_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[10.233389] (custom_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs/srv/pluto_pilot__type_support.cpp.o\x1b[0m\n'}
+[10.235436] (-) TimerEvent: {}
+[10.237652] (custom_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs/msg/pluto_msg_ap__type_support.cpp.o\x1b[0m\n'}
+[10.249875] (custom_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs/msg/pluto_msg__type_support.cpp.o\x1b[0m\n'}
+[10.255408] (custom_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs/msg/detail/pluto_msg__type_support.cpp.o\x1b[0m\n'}
+[10.267335] (custom_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs/msg/detail/pluto_msg_ap__type_support.cpp.o\x1b[0m\n'}
+[10.335566] (-) TimerEvent: {}
+[10.423573] (custom_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[10.435673] (-) TimerEvent: {}
+[10.536039] (-) TimerEvent: {}
+[10.602861] (custom_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs/msg/detail/dds_fastrtps/pluto_msg__type_support.cpp.o\x1b[0m\n'}
+[10.636152] (-) TimerEvent: {}
+[10.648838] (custom_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[10.736301] (-) TimerEvent: {}
+[10.824077] (custom_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs/msg/pluto_msg__type_support.cpp.o\x1b[0m\n'}
+[10.836437] (-) TimerEvent: {}
+[10.877920] (custom_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[10.905792] (custom_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs/msg/detail/pluto_msg__type_support.c.o\x1b[0m\n'}
+[10.936559] (-) TimerEvent: {}
+[10.949109] (custom_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs/msg/pluto_msg_ap__type_support.cpp.o\x1b[0m\n'}
+[10.957137] (custom_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs/msg/detail/dds_fastrtps/pluto_msg_ap__type_support.cpp.o\x1b[0m\n'}
+[10.987926] (custom_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs/srv/detail/dds_fastrtps/pluto_pilot__type_support.cpp.o\x1b[0m\n'}
+[10.996225] (custom_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[11.014089] (custom_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs/srv/detail/pluto_pilot__type_support.cpp.o\x1b[0m\n'}
+[11.025510] (custom_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs/msg/detail/pluto_msg_ap__type_support.c.o\x1b[0m\n'}
+[11.036677] (-) TimerEvent: {}
+[11.042103] (custom_msgs) StdoutLine: {'line': b'[ 53%] Built target custom_msgs__rosidl_typesupport_cpp\n'}
+[11.053204] (custom_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs/srv/detail/pluto_pilot__type_support.c.o\x1b[0m\n'}
+[11.063659] (custom_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs/srv/pluto_pilot__type_support.cpp.o\x1b[0m\n'}
+[11.134031] (custom_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking C shared library libcustom_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[11.136797] (-) TimerEvent: {}
+[11.173830] (custom_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[11.197219] (custom_msgs) StdoutLine: {'line': b'[ 61%] Built target custom_msgs__rosidl_typesupport_introspection_c\n'}
+[11.236968] (-) TimerEvent: {}
+[11.254534] (custom_msgs) StdoutLine: {'line': b'[ 61%] Built target custom_msgs__rosidl_typesupport_c\n'}
+[11.337100] (-) TimerEvent: {}
+[11.437509] (-) TimerEvent: {}
+[11.488076] (custom_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[11.526058] (custom_msgs) StdoutLine: {'line': b'[ 63%] Built target custom_msgs__rosidl_typesupport_introspection_cpp\n'}
+[11.537637] (-) TimerEvent: {}
+[11.637954] (-) TimerEvent: {}
+[11.738276] (-) TimerEvent: {}
+[11.836623] (custom_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[11.838378] (-) TimerEvent: {}
+[11.938793] (-) TimerEvent: {}
+[12.039275] (-) TimerEvent: {}
+[12.138197] (custom_msgs) StdoutLine: {'line': b'[ 65%] Built target custom_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[12.139333] (-) TimerEvent: {}
+[12.146958] (custom_msgs) StdoutLine: {'line': b'[ 68%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[12.239510] (-) TimerEvent: {}
+[12.339824] (-) TimerEvent: {}
+[12.440118] (-) TimerEvent: {}
+[12.540406] (-) TimerEvent: {}
+[12.547600] (custom_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[12.566077] (custom_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/msg/detail/pluto_msg__type_support_c.cpp.o\x1b[0m\n'}
+[12.566311] (custom_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/msg/detail/pluto_msg_ap__type_support_c.cpp.o\x1b[0m\n'}
+[12.570705] (custom_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/srv/detail/pluto_pilot__type_support_c.cpp.o\x1b[0m\n'}
+[12.640562] (-) TimerEvent: {}
+[12.740975] (-) TimerEvent: {}
+[12.841403] (-) TimerEvent: {}
+[12.941765] (-) TimerEvent: {}
+[13.021530] (custom_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[13.041885] (-) TimerEvent: {}
+[13.105147] (custom_msgs) StdoutLine: {'line': b'[ 76%] Built target custom_msgs__rosidl_typesupport_fastrtps_c\n'}
+[13.114480] (custom_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msgs\x1b[0m\n'}
+[13.123290] (custom_msgs) StdoutLine: {'line': b'[ 76%] Built target custom_msgs\n'}
+[13.132214] (custom_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msgs__py\x1b[0m\n'}
+[13.141755] (custom_msgs) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[13.141914] (-) TimerEvent: {}
+[13.242143] (-) TimerEvent: {}
+[13.342585] (-) TimerEvent: {}
+[13.443019] (-) TimerEvent: {}
+[13.543454] (-) TimerEvent: {}
+[13.643797] (-) TimerEvent: {}
+[13.744136] (-) TimerEvent: {}
+[13.844593] (-) TimerEvent: {}
+[13.944894] (-) TimerEvent: {}
+[14.045188] (-) TimerEvent: {}
+[14.145464] (-) TimerEvent: {}
+[14.245768] (-) TimerEvent: {}
+[14.275784] (custom_msgs) StdoutLine: {'line': b'[ 78%] Built target custom_msgs__py\n'}
+[14.284808] (custom_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msgs__python\x1b[0m\n'}
+[14.345962] (-) TimerEvent: {}
+[14.446433] (-) TimerEvent: {}
+[14.456214] (custom_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__python.dir/rosidl_generator_py/custom_msgs/msg/_pluto_msg_ap_s.c.o\x1b[0m\n'}
+[14.456466] (custom_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__python.dir/rosidl_generator_py/custom_msgs/msg/_pluto_msg_s.c.o\x1b[0m\n'}
+[14.458757] (custom_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__python.dir/rosidl_generator_py/custom_msgs/srv/_pluto_pilot_s.c.o\x1b[0m\n'}
+[14.546604] (-) TimerEvent: {}
+[14.647022] (-) TimerEvent: {}
+[14.747360] (-) TimerEvent: {}
+[14.754743] (custom_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_msgs/libcustom_msgs__python.so\x1b[0m\n'}
+[14.816505] (custom_msgs) StdoutLine: {'line': b'[ 87%] Built target custom_msgs__python\n'}
+[14.828006] (custom_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[14.828211] (custom_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[14.828345] (custom_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[14.847491] (-) TimerEvent: {}
+[14.867829] (custom_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[14.868156] (custom_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[14.869650] (custom_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[14.947605] (-) TimerEvent: {}
+[14.988793] (custom_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[15.030039] (custom_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_msgs/custom_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[15.045885] (custom_msgs) StdoutLine: {'line': b'[ 97%] Built target custom_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[15.047713] (-) TimerEvent: {}
+[15.049447] (custom_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[15.060754] (custom_msgs) StdoutLine: {'line': b'[100%] Built target custom_msgs__rosidl_typesupport_c__pyext\n'}
+[15.081299] (custom_msgs) StdoutLine: {'line': b'[100%] Built target custom_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[15.091428] (custom_msgs) CommandEnded: {'returncode': 0}
+[15.147841] (-) TimerEvent: {}
+[15.154886] (custom_msgs) JobProgress: {'identifier': 'custom_msgs', 'progress': 'install'}
+[15.165265] (custom_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/malay/pluto_ros2/src/pluto-ros2-package/build/custom_msgs'], 'cwd': '/home/malay/pluto_ros2/src/pluto-ros2-package/build/custom_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'malay'), ('SSH_AGENT_PID', '2102'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('VREP_ROOT', '/malay/Downloads/VREP'), ('HOME', '/home/malay'), ('OLDPWD', '/home/malay/pluto_ros2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1910'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'malay'), ('JOURNAL_STREAM', '8:55371'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'malay'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/malay/gazebo_ws/gazebo_models:/home/malay/ardupilot_gazebo/models:/home/malay/catkin_ws/src/iq_sim/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/foxy/bin:/usr/lib/ccache:/home/malay/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/malay/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/malay-IdeaPad-3-15IIL05:@/tmp/.ICE-unix/2139,unix/malay-IdeaPad-3-15IIL05:/tmp/.ICE-unix/2139'), ('INVOCATION_ID', 'd6c027e860cd43e9a194f324b330e497'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0fd5d6b4_3c63_4eb1_9622_1b06a7f6f3c0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.210'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/malay/pluto_ros2/src/pluto-ros2-package/build/custom_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[15.174425] (custom_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.174669] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/share/ament_index/resource_index/rosidl_interfaces/custom_msgs\n'}
+[15.174764] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs\n'}
+[15.174844] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg\n'}
+[15.174925] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg/pluto_msg_ap.h\n'}
+[15.174983] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[15.175064] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg/detail\n'}
+[15.175119] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg/detail/pluto_msg_ap__struct.h\n'}
+[15.175174] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg/detail/pluto_msg_ap__type_support.h\n'}
+[15.175256] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg/detail/pluto_msg__type_support.h\n'}
+[15.175323] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg/detail/pluto_msg__functions.c\n'}
+[15.175378] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg/detail/pluto_msg__struct.h\n'}
+[15.175468] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg/detail/pluto_msg__functions.h\n'}
+[15.175523] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg/detail/pluto_msg_ap__functions.h\n'}
+[15.175577] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg/detail/pluto_msg_ap__functions.c\n'}
+[15.175629] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg/pluto_msg.h\n'}
+[15.175714] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/srv\n'}
+[15.175769] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/srv/pluto_pilot.h\n'}
+[15.175823] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/srv/detail\n'}
+[15.175875] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/srv/detail/pluto_pilot__struct.h\n'}
+[15.175927] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/srv/detail/pluto_pilot__functions.c\n'}
+[15.176011] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/srv/detail/pluto_pilot__functions.h\n'}
+[15.176065] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/srv/detail/pluto_pilot__type_support.h\n'}
+[15.176119] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/share/custom_msgs/environment/library_path.sh\n'}
+[15.176187] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/share/custom_msgs/environment/library_path.dsv\n'}
+[15.176467] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_c.so\n'}
+[15.176567] (custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_c.so" to ""\n'}
+[15.176623] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs\n'}
+[15.176698] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg\n'}
+[15.176812] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[15.176867] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg/detail\n'}
+[15.176918] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg/detail/pluto_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[15.176972] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg/detail/pluto_msg_ap__rosidl_typesupport_fastrtps_c.h\n'}
+[15.177024] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/srv\n'}
+[15.177077] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/srv/detail\n'}
+[15.177130] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/srv/detail/pluto_pilot__rosidl_typesupport_fastrtps_c.h\n'}
+[15.177205] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[15.177281] (custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[15.177362] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs\n'}
+[15.177417] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg\n'}
+[15.177471] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[15.177546] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg/detail\n'}
+[15.177659] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg/detail/pluto_msg_ap__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.177719] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg/detail/pluto_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.177773] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg/detail/dds_fastrtps\n'}
+[15.177828] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/srv\n'}
+[15.177880] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/srv/detail\n'}
+[15.177932] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/srv/detail/dds_fastrtps\n'}
+[15.177984] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/srv/detail/pluto_pilot__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.178059] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[15.178164] (custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[15.178220] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs\n'}
+[15.178299] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg\n'}
+[15.178355] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg/detail\n'}
+[15.178408] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg/detail/pluto_msg_ap__type_support.c\n'}
+[15.178461] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg/detail/pluto_msg__type_support.c\n'}
+[15.178514] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg/detail/pluto_msg__rosidl_typesupport_introspection_c.h\n'}
+[15.178566] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg/detail/pluto_msg_ap__rosidl_typesupport_introspection_c.h\n'}
+[15.178639] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[15.178734] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/srv\n'}
+[15.178793] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/srv/detail\n'}
+[15.178849] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/srv/detail/pluto_pilot__type_support.c\n'}
+[15.178903] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/srv/detail/pluto_pilot__rosidl_typesupport_introspection_c.h\n'}
+[15.178956] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_c.so\n'}
+[15.179028] (custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[15.179105] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_c.so\n'}
+[15.179181] (custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_c.so" to ""\n'}
+[15.179274] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs\n'}
+[15.179330] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg\n'}
+[15.179384] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg/pluto_msg_ap.hpp\n'}
+[15.179437] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[15.179510] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg/pluto_msg.hpp\n'}
+[15.179615] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg/detail\n'}
+[15.179673] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg/detail/pluto_msg_ap__struct.hpp\n'}
+[15.179754] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg/detail/pluto_msg__builder.hpp\n'}
+[15.179810] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg/detail/pluto_msg_ap__builder.hpp\n'}
+[15.179862] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg/detail/pluto_msg_ap__traits.hpp\n'}
+[15.179915] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg/detail/pluto_msg__type_support.hpp\n'}
+[15.179967] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg/detail/pluto_msg__traits.hpp\n'}
+[15.180020] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg/detail/pluto_msg__struct.hpp\n'}
+[15.180095] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg/detail/pluto_msg_ap__type_support.hpp\n'}
+[15.180198] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/srv\n'}
+[15.180271] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/srv/detail\n'}
+[15.180404] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/srv/detail/pluto_pilot__traits.hpp\n'}
+[15.180460] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/srv/detail/pluto_pilot__type_support.hpp\n'}
+[15.180514] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/srv/detail/pluto_pilot__builder.hpp\n'}
+[15.180567] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/srv/detail/pluto_pilot__struct.hpp\n'}
+[15.180627] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/srv/pluto_pilot.hpp\n'}
+[15.180704] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs\n'}
+[15.180757] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg\n'}
+[15.180809] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg/detail\n'}
+[15.180862] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg/detail/pluto_msg__type_support.cpp\n'}
+[15.180940] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg/detail/pluto_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.181043] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg/detail/pluto_msg_ap__type_support.cpp\n'}
+[15.181098] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/msg/detail/pluto_msg_ap__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.181153] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/srv\n'}
+[15.181207] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/srv/detail\n'}
+[15.181258] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/srv/detail/pluto_pilot__type_support.cpp\n'}
+[15.181310] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/include/custom_msgs/srv/detail/pluto_pilot__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.181363] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[15.181436] (custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[15.181534] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_cpp.so\n'}
+[15.181589] (custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[15.181640] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/share/custom_msgs/environment/pythonpath.sh\n'}
+[15.181694] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/share/custom_msgs/environment/pythonpath.dsv\n'}
+[15.181773] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/lib/python3.8/site-packages/custom_msgs/__init__.py\n'}
+[15.206759] (custom_msgs) StdoutLine: {'line': b"Compiling '/home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/lib/python3.8/site-packages/custom_msgs/__init__.py'...\n"}
+[15.210219] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/lib/python3.8/site-packages/custom_msgs/msg\n'}
+[15.210491] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/lib/python3.8/site-packages/custom_msgs/msg/_pluto_msg.py\n'}
+[15.210561] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/lib/python3.8/site-packages/custom_msgs/msg/_pluto_msg_ap_s.c\n'}
+[15.210635] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/lib/python3.8/site-packages/custom_msgs/msg/__init__.py\n'}
+[15.210691] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/lib/python3.8/site-packages/custom_msgs/msg/_pluto_msg_ap.py\n'}
+[15.210745] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/lib/python3.8/site-packages/custom_msgs/msg/_pluto_msg_s.c\n'}
+[15.210799] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/lib/python3.8/site-packages/custom_msgs/srv\n'}
+[15.210853] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/lib/python3.8/site-packages/custom_msgs/srv/_pluto_pilot.py\n'}
+[15.210933] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/lib/python3.8/site-packages/custom_msgs/srv/_pluto_pilot_s.c\n'}
+[15.210987] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/lib/python3.8/site-packages/custom_msgs/srv/__init__.py\n'}
+[15.211058] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/lib/python3.8/site-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[15.211370] (custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/lib/python3.8/site-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[15.211538] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/lib/python3.8/site-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[15.211953] (custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/lib/python3.8/site-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[15.212051] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/lib/python3.8/site-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[15.212432] (custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/lib/python3.8/site-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[15.212551] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/lib/libcustom_msgs__python.so\n'}
+[15.212698] (custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/lib/libcustom_msgs__python.so" to ""\n'}
+[15.212779] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/share/custom_msgs/msg/PlutoMsg.idl\n'}
+[15.212873] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/share/custom_msgs/msg/PlutoMsgAP.idl\n'}
+[15.212988] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/share/custom_msgs/srv/PlutoPilot.idl\n'}
+[15.213080] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/share/custom_msgs/msg/PlutoMsg.msg\n'}
+[15.213171] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/share/custom_msgs/msg/PlutoMsgAP.msg\n'}
+[15.213258] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/share/custom_msgs/srv/PlutoPilot.srv\n'}
+[15.213347] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/share/custom_msgs/srv/PlutoPilot_Request.msg\n'}
+[15.213437] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/share/custom_msgs/srv/PlutoPilot_Response.msg\n'}
+[15.213566] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/share/ament_index/resource_index/package_run_dependencies/custom_msgs\n'}
+[15.213691] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/share/ament_index/resource_index/parent_prefix_path/custom_msgs\n'}
+[15.213788] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/share/custom_msgs/environment/ament_prefix_path.sh\n'}
+[15.225768] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/share/custom_msgs/environment/ament_prefix_path.dsv\n'}
+[15.226095] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/share/custom_msgs/environment/path.sh\n'}
+[15.226183] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/share/custom_msgs/environment/path.dsv\n'}
+[15.226252] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/share/custom_msgs/local_setup.bash\n'}
+[15.226315] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/share/custom_msgs/local_setup.sh\n'}
+[15.226420] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/share/custom_msgs/local_setup.zsh\n'}
+[15.226492] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/share/custom_msgs/local_setup.dsv\n'}
+[15.226555] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/share/custom_msgs/package.dsv\n'}
+[15.226644] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/share/ament_index/resource_index/packages/custom_msgs\n'}
+[15.226740] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_generator_cExport.cmake\n'}
+[15.226824] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[15.226988] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[15.227107] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[15.227263] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cExport.cmake\n'}
+[15.227377] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[15.227529] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_generator_cppExport.cmake\n'}
+[15.227688] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[15.227802] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[15.227950] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[15.228061] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[15.228177] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/share/custom_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[15.228581] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[15.228743] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[15.228890] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[15.228970] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[15.229084] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/share/custom_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[15.229188] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/share/custom_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[15.229274] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/share/custom_msgs/cmake/custom_msgsConfig.cmake\n'}
+[15.229378] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/share/custom_msgs/cmake/custom_msgsConfig-version.cmake\n'}
+[15.229443] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/malay/pluto_ros2/src/pluto-ros2-package/install/custom_msgs/share/custom_msgs/package.xml\n'}
+[15.231374] (custom_msgs) CommandEnded: {'returncode': 0}
+[15.248004] (-) TimerEvent: {}
+[15.349274] (-) TimerEvent: {}
+[15.449634] (-) TimerEvent: {}
+[15.551087] (-) TimerEvent: {}
+[15.651679] (-) TimerEvent: {}
+[15.752685] (-) TimerEvent: {}
+[15.792383] (custom_msgs) JobEnded: {'identifier': 'custom_msgs', 'rc': 0}
+[15.793441] (-) EventReactorShutdown: {}

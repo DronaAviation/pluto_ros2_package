@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from custom_msgs/msg/PlutoMsgAP.msg
+// generated code does not contain a copyright notice
+
+
+module custom_msgs {
+  module msg {
+    struct PlutoMsgAP {
+      int64 rc_roll;
+
+      int64 rc_pitch;
+
+      int64 rc_yaw;
+
+      int64 rc_throttle;
+
+      int64 pluto_index;
+
+      int8 command_type;
+    };
+  };
+};

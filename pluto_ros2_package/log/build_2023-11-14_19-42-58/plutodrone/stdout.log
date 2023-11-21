@@ -1,0 +1,44 @@
+running egg_info
+creating ../build/plutodrone/plutodrone.egg-info
+writing ../build/plutodrone/plutodrone.egg-info/PKG-INFO
+writing dependency_links to ../build/plutodrone/plutodrone.egg-info/dependency_links.txt
+writing entry points to ../build/plutodrone/plutodrone.egg-info/entry_points.txt
+writing requirements to ../build/plutodrone/plutodrone.egg-info/requires.txt
+writing top-level names to ../build/plutodrone/plutodrone.egg-info/top_level.txt
+writing manifest file '../build/plutodrone/plutodrone.egg-info/SOURCES.txt'
+reading manifest file '../build/plutodrone/plutodrone.egg-info/SOURCES.txt'
+writing manifest file '../build/plutodrone/plutodrone.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/build
+creating /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/build/lib
+creating /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/build/lib/plutodrone
+copying plutodrone/Common.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/build/lib/plutodrone
+copying plutodrone/Communication.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/build/lib/plutodrone
+copying plutodrone/__init__.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/build/lib/plutodrone
+copying plutodrone/PlutoNode.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/build/lib/plutodrone
+copying plutodrone/Protocol.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/build/lib/plutodrone
+running install
+running install_lib
+creating /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/lib/python3.8/site-packages/plutodrone
+copying /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/build/lib/plutodrone/Common.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/lib/python3.8/site-packages/plutodrone
+copying /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/build/lib/plutodrone/Communication.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/lib/python3.8/site-packages/plutodrone
+copying /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/build/lib/plutodrone/__init__.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/lib/python3.8/site-packages/plutodrone
+copying /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/build/lib/plutodrone/PlutoNode.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/lib/python3.8/site-packages/plutodrone
+copying /home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/build/lib/plutodrone/Protocol.py -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/lib/python3.8/site-packages/plutodrone
+byte-compiling /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/lib/python3.8/site-packages/plutodrone/Common.py to Common.cpython-38.pyc
+byte-compiling /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/lib/python3.8/site-packages/plutodrone/Communication.py to Communication.cpython-38.pyc
+byte-compiling /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/lib/python3.8/site-packages/plutodrone/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/lib/python3.8/site-packages/plutodrone/PlutoNode.py to PlutoNode.cpython-38.pyc
+byte-compiling /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/lib/python3.8/site-packages/plutodrone/Protocol.py to Protocol.cpython-38.pyc
+running install_data
+creating /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/share/ament_index
+creating /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/share/ament_index/resource_index
+creating /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/share/ament_index/resource_index/packages
+copying resource/plutodrone -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/share/ament_index/resource_index/packages
+copying package.xml -> /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/share/plutodrone
+running install_egg_info
+Copying ../build/plutodrone/plutodrone.egg-info to /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/lib/python3.8/site-packages/plutodrone-0.0.0-py3.8.egg-info
+running install_scripts
+Installing plutonode script to /home/malay/pluto_ros2/src/pluto-ros2-package/install/plutodrone/lib/plutodrone
+writing list of installed files to '/home/malay/pluto_ros2/src/pluto-ros2-package/build/plutodrone/install.log'
