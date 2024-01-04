@@ -25,7 +25,7 @@ Install Ubuntu 20.04 or greater version
 ```bash
     sudo apt-get install git
 ```
-4. Install the Pluto package [Pluto ROS2 Package](https://github.com/MalayPhadke/pluto_ros2_package)
+4. Install the Pluto package [Pluto ROS2 Package](https://github.com/DronaAviation/pluto_ros2_package.git)
 
   - Navigate to your src folder of your workspace using
 
