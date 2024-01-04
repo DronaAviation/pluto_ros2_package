@@ -62,7 +62,7 @@ Install Ubuntu 20.04 or greater version
             ros2 run plutoserver plutoserver
 
     - On the third terminal, we will attempt to provide input for control of the drone using keyboard
-	```bash
-	    ros2 launch plutoserver drone_comb.launch.py ```
+	```
+	    ros2 launch plutoserver drone_comb.launch.py 
 For the list of keyboard commands use the section 4.2 of the [ROS wiki tutorial](http://wiki.ros.org/pluto_drone#Keyboard)
 
