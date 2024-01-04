@@ -7,7 +7,7 @@ Caution: Please pay attention to the version of software. The dependencies chang
 
 ## Installation
 
-1. Install ROS kinetic & setup the environment 
+1. Install ROS2 Foxy & setup the environment 
 
 
 https://docs.ros.org/en/foxy/Installation/Alternatives/Ubuntu-Development-Setup.html
